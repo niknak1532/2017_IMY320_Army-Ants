@@ -1,6 +1,4 @@
-# BOMBFEST
-
-# Design Proposal
+# BOMBFEST Design Proposal
 
 ## University of Pretoria
 
