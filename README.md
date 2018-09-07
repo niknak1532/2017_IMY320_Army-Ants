@@ -8,9 +8,9 @@ A Proposal to Build a Website for the Promotion of BOMBFEST
 First design proposal submitted to Zack Pierce for the design of the BOMBFEST promotional
 website.
 
-_The proposal is being transmitted to:
+### The proposal is being transmitted to:
 Name: Mr Yan Wong, Lecturer
-Address: IT 6-61 University of Pretoria_
+Address: IT 6-61 University of Pretoria
 
 Proposal support
 Our website aims to provide a general overview about the game, BOMBFEST and
@@ -18,15 +18,15 @@ what users should expect from the final product. The website content is delivere
 through enhanced interactivity and pleasurable user experience using latest
 technology trends.
 
-### Compiled by:
+## Compiled by:
 
-### Lesego Mabe (u15055214@tuks.co.za)
+### - Lesego Mabe (u15055214@tuks.co.za)
 
-### Nkosenhle Ncube (u13247914@tuks.co.za)
+### - Nkosenhle Ncube (u13247914@tuks.co.za)
 
-### Tlou Lebelo (u15209190@tuks.co.za)
+### - Tlou Lebelo (u15209190@tuks.co.za)
 
-### Bandile Dlamini (u14402425@tuks.co.za)
+### - Bandile Dlamini (u14402425@tuks.co.za)
 
 ## Friday 7 September 2018
 
@@ -70,20 +70,14 @@ and that it would be a great help throughout the marketing that would need to be
 ```
 ● The design of a promotional website for BOMBFEST.
 ● An interactive and user centered design.
-● The design will make use of integrated animations, PWA concepts, and some
-particle backgrounds as per current web design trends. In addition, it will have a
-Single Page Application design.
-● In keeping with the current trends of design, the design will produce a product that
-is both palatable in this day and age, as well as up to the necessary standards for
-its audience. These are designs that work, that are relevant and that users have
+● The design will make use of integrated animations, PWA concepts, and some particle backgrounds as per current web design trends. In addition, it will have a single Page Application design.
+● In keeping with the current trends of design, the design will produce a product that is both palatable in this day and age, as well as up to the necessary standards for its audience. These are designs that work, that are relevant and that users have
 tended to approve.
 ```
 ## Background
 
 BOMBFEST is an award-winning party game for you and up to three friends! Battle in
-wooden forts, on folding chairs, and inside the kitchen sink as you attempt to be the
-
-last player standing. Use bombs to eliminate your foes, but don’t get caught in a
+wooden forts, on folding chairs, and inside the kitchen sink as you attempt to be the last player standing. Use bombs to eliminate your foes, but don’t get caught in a
 
 chain reaction of explosions!​[2]
 
@@ -161,17 +155,17 @@ nt-to-your-site​ [Accessed 07 September 2018]
 
 ## Qualifications of the Development Group
 
-Lesego Mabe is a final year BSc Computer Science student with both programming and web
+**Lesego Mabe** is a final year BSc Computer Science student with both programming and web
 development experience.
 
-Tlou Lebelo is a final year BSc Computer Science student with great knowledge and interest
+**Tlou Lebelo** is a final year BSc Computer Science student with great knowledge and interest
 in web programming and technologies.
 
-Nkosenhle Ncube is an undergraduate finalist for a BSc Computer Science degree with
+**Nkosenhle Ncube** is an undergraduate finalist for a BSc Computer Science degree with
 knowledge and experience in web programming and technologies, ranging from front-end to
 back-end services.
 
-Bandile Dlamini is a final year BSc Computer Science students that has both interest and
+**Bandile Dlamini** is a final year BSc Computer Science students that has both interest and
 experience in software development as well as user experience on mobile devices. He also
 has gotten involved in 2 startup companies as a software developer.
 
