@@ -9,7 +9,7 @@ First design proposal submitted to Zack Pierce for the design of the BOMBFEST pr
 website.
 
 ### The proposal is being transmitted to:
-Name: Mr Yan Wong, Lecturer
+Name: Mr Yan Wong, Lecturer 
 Address: IT 6-61 University of Pretoria
 
 Proposal support
@@ -70,16 +70,17 @@ and that it would be a great help throughout the marketing that would need to be
 ```
 ● The design of a promotional website for BOMBFEST.
 ● An interactive and user centered design.
-● The design will make use of integrated animations, PWA concepts, and some particle backgrounds as per current web design trends. In addition, it will have a single Page Application design.
-● In keeping with the current trends of design, the design will produce a product that is both palatable in this day and age, as well as up to the necessary standards for its audience. These are designs that work, that are relevant and that users have
+● The design will make use of integrated animations, PWA concepts, and some particle backgrounds as per current 
+web design trends. In addition, it will have a single Page Application design.
+● In keeping with the current trends of design, the design will produce a product that is both palatable in this 
+day and age, as well as up to the necessary standards for its audience. These are designs that work, that are 
+relevant and that users have
 tended to approve.
 ```
 ## Background
 
 BOMBFEST is an award-winning party game for you and up to three friends! Battle in
-wooden forts, on folding chairs, and inside the kitchen sink as you attempt to be the last player standing. Use bombs to eliminate your foes, but don’t get caught in a
-
-chain reaction of explosions!​[2]
+wooden forts, on folding chairs, and inside the kitchen sink as you attempt to be the last player standing. Use bombs to eliminate your foes, but don’t get caught in a chain reaction of explosions!​[2]
 
 ### The Overall Need
 
