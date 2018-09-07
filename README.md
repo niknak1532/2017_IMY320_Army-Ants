@@ -1,7 +1,4 @@
 # 2017_IMY320_Army-Ants
-<<<<<<< HEAD
-This will be where the design of the IMY320 group website will reside.
-=======
 This will be where the design of the IMY320 group website will reside
 
 # Development Plan	
@@ -22,4 +19,3 @@ Since a Single Page Application design will be followed, in order avoid parallax
 
 ## User experience
 There will be a deliberate effort to avoid pop ups throughout the website, and instead, dynamically changing content will be used (through the use of jQuery and JavaScript).
->>>>>>> 1b2b054d1cf36c9f094816bde3651350b2758746
