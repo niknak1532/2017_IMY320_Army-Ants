@@ -9,10 +9,10 @@ First design proposal submitted to Zack Pierce for the design of the BOMBFEST pr
 website.
 
 ### The proposal is being transmitted to:
-Name: Mr Yan Wong, Lecturer 
-Address: IT 6-61 University of Pretoria
+**Name:** Mr Yan Wong, Lecturer. 
+**Address:** IT 6-61 University of Pretoria
 
-Proposal support
+### Proposal support
 Our website aims to provide a general overview about the game, BOMBFEST and
 what users should expect from the final product. The website content is delivered
 through enhanced interactivity and pleasurable user experience using latest
@@ -74,8 +74,7 @@ and that it would be a great help throughout the marketing that would need to be
 web design trends. In addition, it will have a single Page Application design.
 ● In keeping with the current trends of design, the design will produce a product that is both palatable in this 
 day and age, as well as up to the necessary standards for its audience. These are designs that work, that are 
-relevant and that users have
-tended to approve.
+relevant and that users have tended to approve.
 ```
 ## Background
 
