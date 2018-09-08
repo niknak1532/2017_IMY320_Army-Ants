@@ -15,7 +15,7 @@ The font will be kept to the San-Serif derivative, Futura Font[3]. To avoid wall
 A variety of multimedia will be used throughout the website, including files, videos, animation and flash in order to give our users more benefit from the website, keeping them on the website and ensuring a pleasant experience[4].
 
 ## Design
-Since a Single Page Application design will be followed, in order avoid parallax overload we will limit the amount to content to a single non-scrollable screen.**(I sense some red flags with this statement).
+A Single Page Application design will be followed, in order avoid parallax overload we will limit the amount to content to a single non-scrollable screen.
 
 ## User experience
 There will be a deliberate effort to avoid pop ups throughout the website, and instead, dynamically changing content will be used (through the use of jQuery and JavaScript).
