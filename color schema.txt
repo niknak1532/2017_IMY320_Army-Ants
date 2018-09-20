@@ -1,3 +1,3 @@
 Main: #302429
-Headers: #725AC1 (Original), #7F5BC1
+Headers: #725AC1 (Original), #7F5BC1 (Changed)
 Small Print: #F09D51
