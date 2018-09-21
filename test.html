@@ -1,14 +1,44 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Don't be Alarms</title>
+        <!--Slick: Made by_______-->
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     </head>
 
     <body>
-        <div class="your_class">
-            <div>your content</div>
-            <div>your content</div>
-            <div>your content</div>
+        <div id="cont" style="width:500px;"> 
+            <div class="your-class" data-slick='{"slidesToShow": 1, "slidesToScroll": 1, "arrows": "true"}'>
+                <div>
+                    <div class="image">
+                        <img src="media/additionalImage.gif" />
+                    </div>
+                </div>
+                <div>
+                    <div class="image">
+                        <img src="media/backerRewards.gif" />
+                    </div>
+                </div>
+                <div>
+                    <div class="image">
+                        <img src="media/communityContests.gif" />
+                    </div>
+                </div>
+            </div>
         </div>
+        <button type="button" class="slick-next">Next</button>  
+        <!--Slick: Made by_______-->
+        <script src="http://code.jquery.com/jquery-1.11.0.js" integrity="sha256-zgND4db0iXaO7v4CLBIYHGoIIudWI5hRMQrPB20j0Qw=" crossorigin="anonymous"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.js" integrity="sha256-WFZLwje2g/SCw6gt7wWfJ7K+QRCdI316I4AHS1tPIr4=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+              $('.your-class').slick({
+                "arrows": true
+              });
+            });
+        </script>
     </body>
 
     <footer>
