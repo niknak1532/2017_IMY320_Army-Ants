@@ -107,13 +107,13 @@ span.amp {
 .gd-button,
 #home-slider .cta-button {
     background: #725AC1;
-    background: -moz-linear-gradient(top, #725AC1 0, #8ab52d 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #725AC1), color-stop(100%, #8ab52d));
-    background: -webkit-linear-gradient(top, #725AC1 0, #8ab52d 100%);
-    background: -o-linear-gradient(top, #725AC1 0, #8ab52d 100%);
-    background: -ms-linear-gradient(top, #725AC1 0, #8ab52d 100%);
-    background: linear-gradient(to bottom, #725AC1 0, #8ab52d 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#725AC1', endColorstr='#8ab52d', GradientType=0);
+    background: -moz-linear-gradient(top, #725AC1 0, #5738bc 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #725AC1), color-stop(100%, #5738bc));
+    background: -webkit-linear-gradient(top, #725AC1 0, #5738bc 100%);
+    background: -o-linear-gradient(top, #725AC1 0, #5738bc 100%);
+    background: -ms-linear-gradient(top, #725AC1 0, #5738bc 100%);
+    background: linear-gradient(to bottom, #725AC1 0, #5738bc 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#725AC1', endColorstr='#5738bc', GradientType=0);
     -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .1);
     -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .1);
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .1);
@@ -128,22 +128,22 @@ span.amp {
     text-transform: uppercase;
     font-size: rem-calc(25);
     border-top: 1px solid #725AC1;
-    border-left: 1px solid #8ab52d;
-    border-right: 1px solid #8ab52d;
-    border-bottom: 1px solid #8ab52d
+    border-left: 1px solid #5738bc;
+    border-right: 1px solid #5738bc;
+    border-bottom: 1px solid #5738bc;
 }
 
 .lime-button:hover,
 .gd-button:hover,
 #home-slider .cta-button:hover {
-    background: #cbdf4c;
-    background: -moz-linear-gradient(top, #cbdf4c 0, #9ac03c 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #cbdf4c), color-stop(100%, #9ac03c));
-    background: -webkit-linear-gradient(top, #cbdf4c 0, #9ac03c 100%);
-    background: -o-linear-gradient(top, #cbdf4c 0, #9ac03c 100%);
-    background: -ms-linear-gradient(top, #cbdf4c 0, #9ac03c 100%);
-    background: linear-gradient(to bottom, #cbdf4c 0, #9ac03c 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#725AC1', endColorstr='#8ab52d', GradientType=0)
+    background: #421bc1;
+    background: -moz-linear-gradient(top, #421bc1 0, #26039b 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #26039b), color-stop(100%, #9ac03c));
+    background: -webkit-linear-gradient(top, #421bc1 0, #26039b 100%);
+    background: -o-linear-gradient(top, #421bc1 0, #26039b 100%);
+    background: -ms-linear-gradient(top, #421bc1 0, #26039b 100%);
+    background: linear-gradient(to bottom, #421bc1 0, #26039b 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#725AC1', endColorstr='#5738bc', GradientType=0)
 }
 
 .lime-button:active,
@@ -152,14 +152,14 @@ span.amp {
 .lime-button:focus,
 .gd-button:focus,
 #home-slider .cta-button:focus {
-    background: #9ac03c;
-    background: -moz-linear-gradient(top, #9ac03c 0, #cbdf4c 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #9ac03c), color-stop(100%, #cbdf4c));
-    background: -webkit-linear-gradient(top, #9ac03c 0, #cbdf4c 100%);
-    background: -o-linear-gradient(top, #9ac03c 0, #cbdf4c 100%);
-    background: -ms-linear-gradient(top, #9ac03c 0, #cbdf4c 100%);
-    background: linear-gradient(to bottom, #9ac03c 0, #cbdf4c 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#725AC1', endColorstr='#8ab52d', GradientType=0)
+    background: #421bc1;
+    background: -moz-linear-gradient(top, #421bc1 0, #26039b 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #421bc1), color-stop(100%, #cbdf4c));
+    background: -webkit-linear-gradient(top, #421bc1 0, #26039b 100%);
+    background: -o-linear-gradient(top, #421bc1 0, #26039b 100%);
+    background: -ms-linear-gradient(top, #421bc1 0, #26039b 100%);
+    background: linear-gradient(to bottom, #421bc1 0, #26039b 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#725AC1', endColorstr='#5738bc', GradientType=0)
 }
 
 .lime-button {
@@ -2393,7 +2393,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #b3ca25
+    color: #3c18b2
 }
 
 a img {
@@ -2670,7 +2670,7 @@ p+.stat {
 
 .button:hover,
 .button:focus {
-    background-color: #b1c825;
+    background-color: #390fc1;
     color: #fff
 }
 
@@ -4513,7 +4513,7 @@ meter:-moz-meter-sub-sub-optimum::-moz-meter-bar {
 }
 
 .slider-handle:hover {
-    background-color: #b1c825
+    background-color: #390fc1
 }
 
 .slider-handle.is-dragging {
