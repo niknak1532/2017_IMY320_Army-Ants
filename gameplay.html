@@ -15,23 +15,23 @@
     </head>
 
     <body>
-        <div class="your-class" style="height: 500px; width: 500px; background-color: green; margin-left: 400px; margin-top: 10px;">
+        <div class="your-class" style="height: 250px; width: 500px; background-color: green; margin-left: 400px; margin-top: 150px;">
             <!--Gameplay Feel Example-->
-            <div><h1 style="margin-left: 40px; margin-top: 30px;">1</h1></div>
+            <div><img style="max-width: 100%; max-height: 100%;" src="media/gameplay/images/Feel.JPG"/></div>
             <!--Gampeplay Menu Example-->
-            <div><h1 style="margin-left: 40px; margin-top: 30px;">2</h1></div>
+            <div><img style="max-width: 100%; max-height: 100%;" src="media/gameplay/images/Menu.JPG"/></div>
             <!--Gameplay Choose Character-->
-            <div><h1 style="margin-left: 40px; margin-top: 30px;">3</h1></div>
+            <div><img style="max-width: 100%; max-height: 100%;" src="media/gameplay/images/ChooseCharacter.JPG"/></div>
             <!--Gameplay Practice-->
-            <div><h1 style="margin-left: 40px; margin-top: 30px;">4</h1></div>
+            <div><img style="max-width: 100%; max-height: 100%;" src="media/gameplay/images/Practice.JPG"/></div>
             <!--Gameplay Round 1: Kitchen-->
-            <div><h1 style="margin-left: 40px; margin-top: 30px;">5</h1></div>
+            <div><img style="max-width: 100%; max-height: 100%;" src="media/gameplay/images/Kitchen.JPG"/></div>
             <!--Gameplay Round 2: Toy Room-->
-            <div><h1 style="margin-left: 40px; margin-top: 30px;">6</h1></div>
+            <div><img style="max-width: 100%; max-height: 100%;" src="media/gameplay/images/ToyRoom.JPG"/></div>
             <!--Gameplay Round 3: Bathroom-->
-            <div><h1 style="margin-left: 40px; margin-top: 30px;">7</h1></div>
+            <div><img style="max-width: 100%; max-height: 100%;" src="media/gameplay/images/Bathroom.JPG"/></div>
             <!--Gameplay Round 4: Garden-->
-            <div><h1 style="margin-left: 40px; margin-top: 30px;">8</h1></div>
+            <div><img style="max-width: 100%; max-height: 100%;" src="media/gameplay/images/Study.JPG"/></div>
             <!--Gameplay Round 5: Study-->
         </div>
 
@@ -40,7 +40,13 @@
         <script type="text/javascript" src="slick/slick.min.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
-              $('.your-class').slick();
+              $('.your-class').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear'
+              });
             });
         </script>
     </body>
