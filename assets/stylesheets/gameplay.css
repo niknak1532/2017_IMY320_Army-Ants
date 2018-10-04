@@ -1,11 +1,35 @@
+@font-face {
+    font-family: Souses;
+    src: url("assets/fonts/Souses-FontZillion/Fonts/souses.otf") format("opentype");
+}
+
 .gameplay_body {
    background-color: #302429;
+}
+
+.gameplay_carousel_container {
+    height: 528px;
+    width: 1152px;
+    overflow: hidden;
+}
+
+.gameplay_carousel_menu {
+    height: 528px;
+    width: 298px;
+    float: left;
+    background: lime; 
+}
+
+.menu_item {
+    height: 58px;
+    width: 100%;
 }
 
 .gameplay_carousel {
     height: 528px; 
     width: 800px; 
-    margin: 18px; 
+    margin-left: 20px;
+    margin-right: 30px; 
     float: right;
 }
 

@@ -1,0 +1,6 @@
+To Do:
+
+1. Add game creators to the site.
+2. Fix the article carousel.
+3. Add our own information to the site.
+4. Add credits i.e. references to all the tools, images, code etc. which are not ours.
