@@ -1,7 +1,11 @@
 @font-face {
     font-family: Souses;
-    src: url("assets/fonts/Souses-FontZillion/Fonts/souses.otf") format("opentype");
+    src: url(../souses.otf) format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: block;
 }
+/*for some reason the url points to 'assets/souses.otf'*/
 
 .gameplay_body {
    background-color: #302429;
@@ -17,12 +21,24 @@
     height: 528px;
     width: 298px;
     float: left;
-    background: lime; 
+    /*background: white;*/ 
 }
 
 .menu_item {
-    height: 58px;
+    height: 38px;
     width: 100%;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: #646464;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.item_text {
+    font-family: Souses; 
+    color: #646464;
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 .gameplay_carousel {
