@@ -1,9 +1,10 @@
 $(document).ready(function(){
     $('.gameplay_carousel').slick({
-      dots: true,
+      dots: false,
       infinite: true,
       speed: 500,
       fade: true,
-      cssEase: 'linear'
+      cssEase: 'linear',
+      arrows: true
     });
   });
