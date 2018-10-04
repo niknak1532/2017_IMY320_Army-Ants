@@ -1,0 +1,15 @@
+.gameplay_body {
+   /* background-color: #302429;*/
+}
+
+.gameplay_carousel {
+    height: 539px; 
+    width: 500px; 
+    margin: 18px; 
+    float: right;
+}
+
+.gameplay_item {
+    max-width: 100%; 
+    max-height: 100%;
+}
