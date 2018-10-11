@@ -15,14 +15,6 @@
             text-align: center;
         }
 
-        div.cent {
-            background-image: url("media/blog.png");
-        }
-
-        body {
-            background-color: skyblue;
-        }
-
         h6 {
             font-weight: bold;
         }
@@ -30,6 +22,32 @@
         .extrainfo {
             border-style: double;
             text-align: center;
+        }
+        
+        .speech-bubble {
+            position: relative;
+            background: #00aabb;
+            border-radius: .4em;
+            -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+            transition: height 3s;
+        }
+
+        .speech-bubble:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 0;
+            height: 200px;
+            border: 17px solid transparent;
+            border-bottom-color: #00aabb;
+            border-top: 0;
+            margin-left: -17px;
+            margin-top: -17px;
+        }
+
+        body {
+                background-color: rgba(0, 0, 0, 0.7);
         }
     </style>
 </head>
@@ -79,9 +97,9 @@
     </div>
     <div class="col-sm-1" ></div>
 </div>
-<div class="extrainfo" style="">
+<div class="speech-bubble" style="">
     <h1> More and More Information</h1>
-    <br/><br/><br/><br/><br/><br/><br/>
+    
 </div>
   
 
@@ -121,10 +139,10 @@
     <script>
        $(document).ready(function(){
             $(".link").click(function(){
-                $(".extrainfo").toggle();
+                $(".speech-bubble").toggle();
             });
             
-            $(".extrainfo").hide();
+            $(".speech-bubble").hide();
         });
     </script>
     
