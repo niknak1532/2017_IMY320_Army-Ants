@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bombfest</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <style>
+        .info {
+            border-style: double;
+            text-align: center;
+        }
+
+        h6 {
+            font-weight: bold;
+        }
+
+        .extrainfo {
+            border-style: double;
+            text-align: center;
+        }
+        
+        .speech-bubble {
+            position: relative;
+            background: #00aabb;
+            border-radius: .4em;
+            -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+            transition: height 3s;
+        }
+
+        .speech-bubble:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 0;
+            height: 200px;
+            border: 17px solid transparent;
+            border-bottom-color: #00aabb;
+            border-top: 0;
+            margin-left: -17px;
+            margin-top: -17px;
+        }
+
+        body {
+                background-color: rgba(0, 0, 0, 0.7);
+        }
+    </style>
+</head>
+<body>
+
+<div class="row">
+    <div class="col-sm-1" ></div>
+    <div class="col-sm-10" >
+        <div class="cent" >
+            <div class="info">
+                <h3>Sep 07</h3>
+                <h6><a href="#"> Fundings </a></h6>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <a href="#" class="link">Read More &rsaquo;</a>
+            </div>
+            <div class="info">
+                <h3>Sep 01</h3>
+                <h6><a href="#">New Game Released</a></h6>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <a href="#" class="link">Read More &rsaquo;</a>
+            </div>
+            <div class="info">
+                <h3>Aug 25</h3>
+                <h6><a href="#">Game Update Available</a></h6>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <a href="#" class="link">Read More &rsaquo;</a>
+            </div>
+            <div class="info">
+                <h3>Jul 31</h3>
+                <h6><a href="#">Patch Release 1.1</a></h6>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <a href="#" class="link">Read More &rsaquo;</a>
+            </div class="info">
+            <div class="info">
+                <h3>May 12</h3>
+                <h6><a href="#">Feasibility Test</a></h6>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <a href="#" class="link">Read More &rsaquo;</a>
+            </div>
+            <div class="info">
+                <h3>Jan 21</h3>
+                <h6><a href="#">Patch Release 1.1</a></h6>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <a href="#" class="link">Read More &rsaquo;</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-1" ></div>
+</div>
+<div class="speech-bubble" style="">
+    <h1> More and More Information</h1>
+    
+</div>
+  
+
+  <script src="http://code.jquery.com/jquery-1.11.0.js" integrity="sha256-zgND4db0iXaO7v4CLBIYHGoIIudWI5hRMQrPB20j0Qw=" crossorigin="anonymous"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.js" integrity="sha256-WFZLwje2g/SCw6gt7wWfJ7K+QRCdI316I4AHS1tPIr4=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.cent').slick({
+                centerMode: true,
+                centerPadding: '100px',
+                slidesToShow: 3,
+                responsive: [
+                {
+                    breakpoint: 0,
+                    settings: {
+                    arrows: true,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 0,
+                    settings: {
+                    arrows: true,
+                    centerMode: true,
+                    centerPadding: '20px',
+                    slidesToShow: 1
+                    }
+                }
+                ]
+            })
+        });
+    </script>
+    <script>
+       $(document).ready(function(){
+            $(".link").click(function(){
+                $(".speech-bubble").toggle();
+            });
+            
+            $(".speech-bubble").hide();
+        });
+    </script>
+    
+</body>
+</html>
