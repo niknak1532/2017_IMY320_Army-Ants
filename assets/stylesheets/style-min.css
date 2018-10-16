@@ -5492,9 +5492,10 @@ body h6 a:focus {
 #main-header {
     background: url(../images/backgrounds/bg-menu.png) repeat-x center top;
     z-index: 1001;
-    height: 6.33333rem;
-    margin-top: 1.66667rem;
-    position: relative
+    height: 5.33333rem;
+    margin-top: 0rem;
+    position: fixed;
+    width: 100%;
 }
 
 #main-header .logo {
