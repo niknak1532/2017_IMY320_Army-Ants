@@ -26,13 +26,104 @@
 
 .menu_item {
     height: 38px;
-    width: 100%;
+    width: 298px;
     border-bottom-style: solid;
     border-bottom-width: 10px;
     border-bottom-color: #646464;
     background: rgba(255, 255, 255, 0.7);
+    z-index: 0;
 }
 
+/*.menu_item:hover {
+    height: 90px;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    background-image: url(../media/gameplay/images/Feel.JPG);
+    background-size: cover;
+}*/
+
+/*Use SASS to make this modular and remove repetitous code*/
+.gameplay_carousel_menu div:nth-child(1):hover {
+    height: 90px;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    background-image: url(../media/gameplay/images/Feel.JPG);
+    background-size: cover; 
+}
+
+.gameplay_carousel_menu div:nth-child(2):hover {
+    height: 90px;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    background-image: url(../media/gameplay/images/Menu.JPG);
+    background-size: cover; 
+}
+
+.gameplay_carousel_menu div:nth-child(3):hover {
+    height: 90px;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    background-image: url(../media/gameplay/images/ChooseCharacter.JPG);
+    background-size: cover; 
+}
+
+.gameplay_carousel_menu div:nth-child(4):hover {
+    height: 90px;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    background-image: url(../media/gameplay/images/Practice.JPG);
+    background-size: cover; 
+}
+
+.gameplay_carousel_menu div:nth-child(5):hover {
+    height: 90px;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    background-image: url(../media/gameplay/images/Kitchen.JPG);
+    background-size: cover; 
+}
+
+.gameplay_carousel_menu div:nth-child(6):hover {
+    height: 90px;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    background-image: url(../media/gameplay/images/Feel.JPG);
+    background-size: cover; 
+}
+
+.gameplay_carousel_menu div:nth-child(7):hover {
+    height: 90px;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    background-image: url(../media/gameplay/images/Feel.JPG);
+    background-size: cover; 
+}
+
+.gameplay_carousel_menu div:nth-child(8):hover {
+    height: 90px;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    background-image: url(../media/gameplay/images/Feel.JPG);
+    background-size: cover; 
+}
+
+.gameplay_carousel_menu div:nth-child(9):hover {
+    height: 90px;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    background-image: url(../media/gameplay/images/Feel.JPG);
+    background-size: cover; 
+}
 .item_text {
     font-family: Souses; 
     color: #646464;
