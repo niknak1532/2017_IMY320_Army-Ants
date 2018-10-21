@@ -1,4 +1,4 @@
-# BOMBFEST Design Proposal
+# [Bombfest](https://niknak1532.github.io/2017_IMY320_Army-Ants/ target=_) Design Proposal
 
 ## University of Pretoria
 
