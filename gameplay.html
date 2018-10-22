@@ -21,31 +21,31 @@
         <div class="gameplay_carousel_container">
             <div class="gameplay_carousel_menu">
                 <!--Gameplay Feel-->
-                <div class="menu_item"><h1 class="item_text">WELCOME</h1></div>
+                <div id="welcome" class="menu_item"><h1 class="item_text">WELCOME</h1></div>
                 
                 <!--Gameplay Menu-->
-                <div class="menu_item"><h1 class="item_text">MENU</h1></div>
+                <div id="menu" class="menu_item"><h1 class="item_text">MENU</h1></div>
                 
                 <!--Gameplay Choose Character-->
-                <div class="menu_item"><h1 class="item_text">CHARACTERS</h1></div>
+                <div id="characters" class="menu_item"><h1 class="item_text">CHARACTERS</h1></div>
                 
                 <!--Gameplay Practice-->
-                <div class="menu_item"><h1 class="item_text">PRACTICE</h1></div>
+                <div id="practice" class="menu_item"><h1 class="item_text">PRACTICE</h1></div>
                 
                 <!--Gameplay Kitchen-->
-                <div class="menu_item"><h1 class="item_text">ROUND 1</h1></div>
+                <div id="round1" class="menu_item"><h1 class="item_text">ROUND 1</h1></div>
                 
                 <!--Gameplay Toy Room-->
-                <div class="menu_item"><h1 class="item_text">ROUND 2</h1></div>
+                <div id="round2" class="menu_item"><h1 class="item_text">ROUND 2</h1></div>
                 
                 <!--Gameplay Bathroom-->
-                <div class="menu_item"><h1 class="item_text">ROUND 3</h1></div>
+                <div id="round3" class="menu_item"><h1 class="item_text">ROUND 3</h1></div>
                 
                 <!--Gameplay Garden-->
-                <div class="menu_item"><h1 class="item_text">ROUND 4</h1></div>
+                <div id="round4" class="menu_item"><h1 class="item_text">ROUND 4</h1></div>
 
                 <!--Gameplay Study-->
-                <div class="menu_item"><h1 class="item_text">ROUND 5</h1></div>
+                <div id="round5" class="menu_item"><h1 class="item_text">ROUND 5</h1></div>
             </div>
             <div class="gameplay_carousel">
                 <!--Gameplay Feel Example-->
@@ -81,6 +81,36 @@
         <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js" ></script>
         <script type="text/javascript" src="slick/slick.min.js"></script>
         <script type="text/javascript" src="assets/js/gameplay.js"></script>
+
+        <script type="text/javascript">
+            $("#welcome").click(function(){
+                $('.gameplay_carousel').slick('slickGoTo',0,false);
+            });
+            $("#menu").click(function(){
+                $('.gameplay_carousel').slick('slickGoTo',1,false);
+            });
+            $("#characters").click(function(){
+                $('.gameplay_carousel').slick('slickGoTo',2,false);
+            });
+            $("#practice").click(function(){
+                $('.gameplay_carousel').slick('slickGoTo',3,false);
+            });
+            $("#round1").click(function(){
+                $('.gameplay_carousel').slick('slickGoTo',4,false);
+            });
+            $("#round2").click(function(){
+                $('.gameplay_carousel').slick('slickGoTo',5,false);
+            });
+            $("#round3").click(function(){
+                $('.gameplay_carousel').slick('slickGoTo',6,false);
+            });
+            $("#round4").click(function(){
+                $('.gameplay_carousel').slick('slickGoTo',7,false);
+            });
+            $("#round5").click(function(){
+                $('.gameplay_carousel').slick('slickGoTo',8,false);
+            });
+        </script>
     </body>
 
     <footer>

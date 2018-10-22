@@ -12,16 +12,12 @@ website.
 **Name:** Mr Yan Wong, Lecturer. 
 **Address:** IT 6-61 University of Pretoria
 
-<<<<<<< HEAD
-## Design
-A Single Page Application design will be followed, in order avoid parallax overload we will limit the amount to content to a single non-scrollable screen.
-=======
 ### Proposal support
 Our website aims to provide a general overview about the game, BOMBFEST and
 what users should expect from the final product. The website content is delivered
 through enhanced interactivity and pleasurable user experience using latest
 technology trends.
->>>>>>> a5a83e0315af919c5d1a8c1684063513a2456e18
+
 
 ## Compiled by:
 
