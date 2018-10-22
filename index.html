@@ -24,14 +24,20 @@
       }
 
       .infohead2 {
-          background-color: dimgrey;
+          
       }
 
       .link {
           background-color: skyblue;
           border-style: solid;
       }
-      
+      #x {
+            position: absolute;
+            background: blue;
+            color: white;
+            top: -1px;
+            right: -1px;
+        }
       .modal {
         display: none; /* Hidden by default */
         position: fixed; /* Stay in place */
@@ -103,7 +109,7 @@
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#play">Game Play</a></li>
-            <li><a href="#announcements">Announcements</a></li>
+            <li><a href="#announcements">Blog Notes</a></li>
             <li><a href="#rewards">Rewards</a></li>
           </ul>
           <ul class="mobile-menu"></ul>
@@ -251,7 +257,7 @@
         <!--notebook-->
         <div ><!--class="notebook"-->
 
-          <header><h2 class="title">Blog Notes</h2></header>
+          <header><h2 class="title" id="announcements">Blog Notes</h2></header>
           
           <div class="row">
               <div class="col-sm-1" ></div>
@@ -259,7 +265,7 @@
                   <div class="cent" >
                       <div class="info">
                           <h3>Oct 11, 2018</h3>
-                          <h6><a href="#"> Upcoming Special Events! </a></h6>
+                          <h6> Upcoming Special Events! </h6>
                           <div class="infohead2" >
                             <p>We're running our Character Contest right now, and you still have time.</p>
                             <a  class="link" id="link6">&lsaquo; Read More &rsaquo;</a>
@@ -267,7 +273,7 @@
                       </div>
                       <div class="info">
                           <h3>Oct 08, 2018</h3>
-                          <h6><a href="#">Character Contest Returns!</a></h6>
+                          <h6>Character Contest Returns!</h6>
                           <div class="infohead2">
                             <p>The BOMBFEST Team has been working hard to prepare the game for certification</p>
                             <a  class="link" id="link5">&lsaquo; Read More &rsaquo;</a>
@@ -275,7 +281,7 @@
                       </div>
                       <div class="info">
                           <h3>Oct 01, 2018</h3>
-                          <h6><a href="#">100% Funded, Stretch Goals, and ...</a></h6>
+                          <h6>100% Funded, Stretch Goals, and ...</h6>
                           <div class="infohead2" >
                             <p>Thank you, everyone! After 3 years of hard work, the investment ...</p>
                             <a  class="link" id="link4">&lsaquo; Read More &rsaquo;</a>
@@ -283,7 +289,7 @@
                       </div>
                       <div class="info">
                           <h3>Sep 27, 2018</h3>
-                          <h6><a href="#">Day 2: See Us at GDEX!</a></h6>
+                          <h6>Day 2: See Us at GDEX!</h6>
                           <div class="infohead2">
                             <p>It's Day 3, and response to the Kickstarter has been phenomenal.</p>
                             <a  class="link" id="link3">&lsaquo; Read More &rsaquo;</a>
@@ -291,7 +297,7 @@
                       </div >
                       <div class="info">
                           <h3>Sep 26, 2018</h3>
-                          <h6><a href="#">Day 1 Round Up!</a></h6>
+                          <h6>Day 1 Round Up!</h6>
                           <div class="infohead2">
                             <p>Thanks for backing the relaunched BOMBFEST Kickstarter!</p>
                             <a  class="link" id="link2">&lsaquo; Read More &rsaquo;</a>
@@ -299,7 +305,7 @@
                       </div>
                       <div class="info" >
                           <h3>Sep 25, 2018</h3>
-                          <h6><a href="#">Project launch</a></h6>
+                          <h6>Project launch</h6>
                           <div class="infohead2">
                             <p>The teams official start-off date for the Bombfest game.</p>
                             <a  class="link" id="link1">&lsaquo; Read More &rsaquo;</a>
@@ -314,6 +320,7 @@
               <div class="col-sm-10 extrainfo" id="extrainfo1" style="">
 <p>The teams official start-off date for the Bombfest game.</p>
 <p>Check us on <a href="https://www.kickstarter.com/projects/238126128/bombfest-explosive-fun" target="_blank">kickstarter</a> our goal is to reach $7500</p>
+              
               </div>
               <div class="col-sm-10 extrainfo" id="extrainfo2" style="">
 <h6> Hey Friends!</h6>
